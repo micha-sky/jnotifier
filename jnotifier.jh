@@ -1,0 +1,16 @@
+entity Notification{
+	uuid Integer
+    name String
+    url String
+    email String
+    phone String
+    status String
+}
+
+
+
+dto * with mapstruct
+
+// Set service options to all except few
+service Notification with serviceImpl 
+// Set an angular suffix
