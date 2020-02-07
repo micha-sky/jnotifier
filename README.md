@@ -1,5 +1,7 @@
 # jnotifier
 
+![Java CI](https://github.com/micha-sky/jnotifier/workflows/Java%20CI/badge.svg?branch=master)
+
 This application was generated using JHipster 6.7.0, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v6.7.0](https://www.jhipster.tech/documentation-archive/v6.7.0).
 
 ## Development
