@@ -1,0 +1,25 @@
+entity Receiver{
+	id Integer
+    name String
+    email String
+    phone String
+}
+
+entity Product {
+	id String
+    name String
+    url String
+}
+
+
+
+relationship OneToMany {
+  Product{id} to Receiver{id}
+}
+
+
+dto * with mapstruct
+
+// Set service options to all except few
+service Product with serviceImpl 
+// Set an angular suffix
